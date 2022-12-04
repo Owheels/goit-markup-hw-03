@@ -201,6 +201,7 @@ header {
 }
 
 .profession {
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.2;
   color: var(--text-color-secondary);
@@ -227,6 +228,7 @@ header {
 }
 
 .portfolio-type {
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.9;
   color: var(--text-color-primary);
@@ -268,7 +270,7 @@ header {
   color: var(--color-brand);
 }
 
-.link-logo {
+.link-logo-header {
   padding: 24px 0;
   color: var(--color-brand);
   font-family: "Raleway", sans-serif;
@@ -308,9 +310,12 @@ header {
   letter-spacing: 0.02em;
 }
 
+.footer-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .link-contact-footer {
   display: inline-block;
-  margin-bottom: 9px;
   color: var(--text-color-white);
   opacity: 60%;
   font-size: 14px;
@@ -320,7 +325,6 @@ header {
 
 .link-address-footer {
   display: inline-block;
-  margin-bottom: 9px;
   color: var(--text-color-white);
   font-size: 14px;
   line-height: 1.7;
@@ -339,4 +343,10 @@ footer {
 .link-logo-footer {
   display: inline-block;
   margin-bottom: 20px;
+  color: var(--color-brand);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
 }
